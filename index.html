@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirhan Üzüm | Mühendislik & Teknoloji Portföyü</title>
+    
+    <!-- Modern Fontlar: Başlıklar için Space Grotesk, Metinler için Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- İkonlar için FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Dosyamız -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Başlangıcı -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">E.<span>Üzüm</span></a>
+            
+            <!-- JS kullanmadan çalışan mobil menü butonu (Checkbox Hack) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+            <nav class="nav-links">
+                <a href="#hakkimda">Hakkımda</a>
+                <a href="#beceriler">Beceriler</a>
+                <a href="#projeler">Projeler</a>
+                <a href="#deneyim">Deneyim</a>
+                <a href="#hedefler">Hedefler</a>
+                <a href="#iletisim" class="btn btn-outline btn-sm">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero (Giriş) Bölümü -->
+        <section class="hero" id="hero">
+            <div class="hero-grid-bg"></div>
+            <div class="container hero-content">
+                <p class="hero-subtitle">Merhaba, Ben</p>
+                <h1 class="hero-title">Emirhan Üzüm.</h1>
+                <h2 class="hero-profession">Elektrik-Elektronik Mühendisliği Öğrencisi</h2>
+                <p class="hero-description">
+                    Donanım, yazılım ve analitik düşünceyi bir araya getirerek problem çözmeye ve teknik becerilerimi gerçek projelerle geliştirmeye odaklanıyorum. Sadece çalışan değil, iyi tasarlanmış sistemler inşa etmeyi hedeflerim.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projeler" class="btn btn-primary">Projeleri Görüntüle</a>
+                    <!-- CV İndirme linkini buraya ekleyebilirsin -->
+                    <a href="cv-dosyanin-yolu.pdf" target="_blank" class="btn btn-outline">CV Görüntüle</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/LoG4N05" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/emirhan-üzüm-234b90284/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:uzumemirhan05@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Öne Çıkanlar (Highlights) Bölümü -->
+        <section class="highlights container">
+            <div class="highlight-cards">
+                <div class="highlight-card">
+                    <i class="fas fa-microchip highlight-icon"></i>
+                    <h3>Donanım & Devre</h3>
+                    <p>Analog/Dijital elektronik tasarımı ve fiziksel kurulum.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-code highlight-icon"></i>
+                    <h3>Yazılım & Analiz</h3>
+                    <p>Algoritmik düşünce, C/C++, Python ve veri analizi.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-users highlight-icon"></i>
+                    <h3>Liderlik & Yönetim</h3>
+                    <p>Ekip koordinasyonu, kriz yönetimi ve organizasyon.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hakkımda Bölümü -->
+        <section class="about section-padding" id="hakkimda">
+            <div class="container">
+                <h2 class="section-title">Hakkımda</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Elektrik-Elektronik Mühendisliği öğrencisi olarak elektronik, donanım ve yazılım alanlarında kendimi geliştiriyor; öğrendiklerimi uygulamalı projelerle somutlaştırmaya önem veriyorum.</p>
+                        <p>Proteus üzerinde gerçekleştirdiğim analog ve dijital devre çalışmaları, problem çözme ve teknik analiz becerilerimi geliştirmeme katkı sağlıyor. Bunun yanında MSKÜ Bisiklet Topluluğu’nda başkanlık yaparak etkinlik planlama, ekip koordinasyonu, iletişim ve kriz yönetimi alanlarında deneyim kazandım.</p>
+                        <p>Teknik gelişimimi yazılım, yapay zekâ ve veri analiziyle desteklemeyi hedefliyorum. Uzun vadede mühendislik bilgimi girişimcilik vizyonumla birleştirerek teknoloji odaklı kendi girişimimi kurmak istiyorum.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-box">
+                            <h4>Eğitim</h4>
+                            <p>Muğla Sıtkı Koçman Üniversitesi<br><span>Elektrik-Elektronik Mühendisliği</span></p>
+                        </div>
+                        <div class="stat-box">
+                            <h4>İlgi Alanları</h4>
+                            <p>Gömülü Sistemler, Web Geliştirme, Veri Analizi, PCB Tasarımı</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beceriler Bölümü -->
+        <section class="skills section-padding" id="beceriler">
+            <div class="container">
+                <h2 class="section-title">Teknik Beceriler</h2>
+                <div class="skills-grid">
+                    <!-- Kategori 1 -->
+                    <div class="skill-category">
+                        <h3 class="category-title"><i class="fas fa-bolt"></i> Aktif Kullandıklarım</h3>
+                        <div class="tags">
+                            <span class="tag">Proteus (ISIS/ARES)</span>
+                            <span class="tag">Git & GitHub</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">HTML & CSS</span>
+                            <span class="tag">AutoCAD</span>
+                            <span class="tag">KiCad</span>
+                        </div>
+                    </div>
+                    <!-- Kategori 2 -->
+                    <div class="skill-category">
+                        <h3 class="category-title"><i class="fas fa-layer-group"></i> Aşina Olduklarım</h3>
+                        <div class="tags">
+                            <span class="tag">C / C++</span>
+                            <span class="tag">MATLAB</span>
+                            <span class="tag">SolidWorks</span>
+                            <span class="tag">Analog Devre Elemanları</span>
+                        </div>
+                    </div>
+                    <!-- Kategori 3 -->
+                    <div class="skill-category">
+                        <h3 class="category-title"><i class="fas fa-seedling"></i> Öğrendiklerim & Keşfettiklerim</h3>
+                        <div class="tags">
+                            <span class="tag">Mikrodenetleyiciler</span>
+                            <span class="tag">Modern Web Geliştirme</span>
+                            <span class="tag">Yapay Zeka Temelleri</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projeler Bölümü -->
+        <section class="projects section-padding" id="projeler">
+            <div class="container">
+                <h2 class="section-title">Seçili Projeler</h2>
+                <div class="projects-grid">
+                    <!-- Proje 1 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-type">Donanım / Devre Tasarımı</span>
+                            <a href="#" class="project-link" title="GitHub'da Gör"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="project-title">Sıralı Bisiklet Sinyalizasyon Sistemi</h3>
+                        <p class="project-desc">Dijital mantık tasarımı prensipleri kullanılarak geliştirilmiş güvenliği artırmaya yönelik sinyalizasyon devresi.</p>
+                        <div class="project-details">
+                            <p><strong>Amaç:</strong> Bisiklet kullanıcılarının trafikteki görünürlüğünü ve güvenliğini artırmak.</p>
+                            <p><strong>Süreç:</strong> Proteus üzerinde simülasyonu yapılmış, ardından fiziksel kurulumu başarıyla gerçekleştirilmiştir.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">74LS Serisi</span>
+                            <span class="tech-tag">CD4017</span>
+                            <span class="tech-tag">Proteus</span>
+                        </div>
+                    </article>
+
+                    <!-- Proje 2 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-type">Analog Elektronik</span>
+                            <a href="#" class="project-link" title="GitHub'da Gör"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="project-title">Aktif Filtre Tabanlı Hız Uyarı Sistemi</h3>
+                        <p class="project-desc">Bisiklet dinamoları için tasarlanmış, hıza duyarlı aktif bir güvenlik ve uyarı devresi.</p>
+                        <div class="project-details">
+                            <p><strong>Amaç:</strong> Belirli bir hız limitinin üzerine çıkıldığında sürücüyü fiziksel olarak uyarmak.</p>
+                            <p><strong>Süreç:</strong> Aktif yüksek geçiren filtre (high-pass filter) topolojisi kullanılarak teorik hesaplamaları ve simülasyonu tamamlanmıştır.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">LM358 Op-Amp</span>
+                            <span class="tech-tag">Filtre Tasarımı</span>
+                            <span class="tech-tag">Devre Analizi</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Liderlik ve Deneyim Bölümü -->
+        <section class="experience section-padding" id="deneyim">
+            <div class="container">
+                <h2 class="section-title">Liderlik & Organizasyon</h2>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-title">
+                            <h3>Yönetim Kurulu Başkanı</h3>
+                            <h4>MSKÜ Bisiklet Topluluğu</h4>
+                        </div>
+                        <span class="experience-date">Aktif Rol</span>
+                    </div>
+                    <div class="experience-body">
+                        <p>Mühendislik eğitimimin yanı sıra, yüzlerce öğrencinin aktif olarak katıldığı topluluğun başkanlık görevini yürütmekteyim. Sadece bir sosyal faaliyet değil, aynı zamanda ciddi bir organizasyon ve kriz yönetimi laboratuvarı olan bu süreçte elde ettiğim kazanımlar:</p>
+                        <ul class="experience-list">
+                            <li><strong>Geniş Çaplı Organizasyon:</strong> Akyaka ve Akbük gibi uzun mesafeli turların baştan sona planlanması ve yönetimi.</li>
+                            <li><strong>Ekip Koordinasyonu:</strong> Farklı karakterlere sahip bireyleri ortak bir amaç doğrultusunda yönlendirme ve görev dağılımı.</li>
+                            <li><strong>Operasyonel Süreçler:</strong> Etkinlik rotalarının çizilmesi, zaman çizelgelerinin oluşturulması ve tanıtım afişlerinin hazırlanması.</li>
+                            <li><strong>Kriz Yönetimi:</strong> Sahada karşılaşılan beklenmedik durumlara (teknik arıza, hava koşulları) karşı anlık ve etkili çözümler üretebilme.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gelecek Hedefleri Bölümü -->
+        <section class="future-goals section-padding" id="hedefler">
+            <div class="container">
+                <h2 class="section-title">Gelecek Vizyonu</h2>
+                <div class="goals-grid">
+                    <div class="goal-card">
+                        <div class="goal-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Kısa Vadeli Hedefler</h3>
+                        <p>Öncelikli olarak web geliştirme alanında modern ve responsive arayüzler kodlayabilme yetkinliğimi artırmak. Eş zamanlı olarak C/C++ ve mikrodenetleyiciler üzerinde uzmanlaşarak, <strong>donanım ile yazılımın entegre çalıştığı</strong> sistemler üretmek ve sağlam bir GitHub portföyü oluşturmak.</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Uzun Vadeli Vizyon</h3>
+                        <p>Teknik donanımımı güçlendirerek sektörde iyi bir şirkette profesyonel deneyim kazanmak. Uzun vadede; <strong>yapay zeka, veri analizi ve finansal piyasaların kesişiminde</strong> algoritmik sistemler ve risk yönetimi üzerine araştırmalar yapmak ve nihayetinde teknoloji odaklı kendi girişimimi hayata geçirmek.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Bölümü -->
+        <section class="contact section-padding" id="iletisim">
+            <div class="container contact-container">
+                <h2 class="section-title">İletişime Geç</h2>
+                <p class="contact-desc">Projeler, fikir alışverişleri veya potansiyel işbirlikleri için benimle bağlantı kurabilirsiniz. Mesajlara en kısa sürede dönüş yapıyorum.</p>
+                <div class="contact-links">
+                    <a href="mailto:uzumemirhan05@gmail.com" class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-info">
+                            <span>E-posta</span>
+                            <strong>uzumemirhan05@gmail.com</strong>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/emirhan-üzüm-234b90284/" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div class="contact-info">
+                            <span>LinkedIn</span>
+                            <strong>Profilime Git</strong>
+                        </div>
+                    </a>
+                    <a href="https://github.com/LoG4N05" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-github"></i></div>
+                        <div class="contact-info">
+                            <span>GitHub</span>
+                            <strong>LoG4N05</strong>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/emirhan_uzum5" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                        <div class="contact-info">
+                            <span>Instagram</span>
+                            <strong>@emirhan_uzum5</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Emirhan Üzüm</h3>
+                <p>Elektrik-Elektronik Mühendisliği Öğrencisi & Donanım Geliştirici</p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Emirhan Üzüm. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
